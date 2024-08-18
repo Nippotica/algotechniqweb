@@ -1,0 +1,66 @@
+- title: Company
+  type: map
+  contents:
+    - name: Full Name
+      value: Algotechniq LLC
+    - name: In Japanese
+      value: アルゴテクニック合同会社
+    - name: Founder
+      value: <a href="https://www.linkedin.com/in/kambiz-homayounfar-b379a01ba/">Kambiz Homayounfar</a>
+    - name: Established
+      value: Feb 2023
+    - name: Registration No.
+      value: 4-0110-03-016268
+    - name: Location
+      value: Shu Building 2982, Ebisu 2-28-10, Tokyo 150-0013, Japan
+    - name: Url
+      value: <a href="https://www.algotechniq.com/">algotechniq.com</a>
+
+- title: Business
+  type: map
+  contents:
+    - name: Sector
+      value: Industrial AI
+    - name: Business Model
+      value: Engineering Services and Consulting
+    - name: Deliverables
+      value: Custom System Development
+
+- title: Solutions
+  type: nested_list
+  contents:
+    - title: Products
+      items:
+        - Computer Vision for Industrial IoT
+        - Realtime AI on Nvidia Processors
+    - title: Platforms
+      items:
+        - NVIDIA Jetson Orin Platform for Edge Applications
+        - NVIDIA A100 Tensor Core GPUs for Realtime AI
+    - title: Applications
+      items:
+        - Surface Defect Detection, Infrastructure Inspection
+        - Traffic Safety, Building Security
+        - Smart Water, Utility, Food Sensors
+
+- title: DevOps
+  type: nested_list
+  contents:
+    - title: AI Tasks
+      items:
+        - Data Generation, Feature Extraction, Image Processing
+        - Object Detection, Regression, Segmentation
+    - title: Frameworks
+      items:
+        - Tensorflow, Keras, PyTorch
+        - Scikit-Learn, Spark-ML, OpenCV
+    - title: Languages
+      items:
+        - Python, Matlab, Mathematica, C++
+        - Java, JavaScript, Android, PHP
+
+- title: Affiliations
+  type: list
+  contents:
+    - Nvidia Inception Program
+    - Wi-SUN Alliance
