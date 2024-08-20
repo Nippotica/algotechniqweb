@@ -19,7 +19,7 @@ Digital Twins, which are virtual replicas of physical assets, are increasingly b
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/digitaltwin.webp" title="Algotechniq DigitalTwin" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/digitaltwin.webp" title="Algotechniq DigitalTwin" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -55,9 +55,11 @@ To formally describe an e-commerce warehouse suitable for building a digital twi
 
 Let \\( W \\) be the warehouse space, divided into \\( N \\) storage units or locations. Each storage location \\( S_i \\) (where \\( i \in \{1, 2, \dots, N\} \\)) can hold a certain quantity of items \\( Q_i(t) \\) at time \\( t \\). 
 
-The total space capacity \\( C_i \\) of each storage location \\( S_i \\) is then given by 
+The total space capacity \\( C_i \\) of each storage location \\( S_i \\) must be 
 
 $$ Q_i(t) \leq C_i $$
+
+This constraint ensures that the inventory at any storage location does not exceed its capacity.
 
 #### Inventory Management
 
@@ -122,7 +124,11 @@ This mathematical description can be used to build a digital twin by translating
 
 The workflow for developing a digital twin of an e-commerce warehouse on Nvidia Omniverse involves several steps. 
 
-The process begins with defining the 3D environment in [Blender[(https://www.blender.org/), where all elements of the warehouse are modeled before being imported into Omniverse. Within Omniverse, the mathematical models are scripted using Python to simulate essential processes such as inventory management, order fulfillment, and logistics. 
+The process begins with defining the 3D environment using tools like [Autodesk Maya](https://en.wikipedia.org/wiki/Autodesk_Maya) or the open-source [Blender](https://www.blender.org/), where all elements of the warehouse are modeled before being imported into Omniverse. The 3D warehouse model can be imported into Nvidia Omniverse using connectors or USD (Universal Scene Description) files.
+
+Within Omniverse, the mathematical models are scripted using Python to simulate essential processes such as inventory management, order fulfillment, and logistics.  For example, each storage location \\( S_i \\) is represented as an object in the scene with an associated property \\( Q_i(t) \\) for inventory level.
 
 Real-time data feeds from the physical warehouse must then be integrated, allowing the digital twin to get  dynamically updated with current information. AI models for forecasting and optimization are implemented, with their inferences feeding back into the simulation to refine operations. The warehouse operations are visualized in real-time, with parameters adjusted as needed to optimize performance based on the simulation results.
+
+Interactive dashboards within Omniverse can be built to visualize key metrics such as throughput \\( T_{\text{p}}(t) \\), utilization \\( U(t) \\), and real-time inventory levels.
 
