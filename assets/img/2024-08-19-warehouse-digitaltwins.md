@@ -2,7 +2,7 @@
 layout: post
 title: Warehouse Math
 date: 2024-08-19
-description: How to formulate a warehouse digital twin
+description: How to make a warehouse digital twin
 tags: technote
 categories: Algoblog
 giscus_comments: false
