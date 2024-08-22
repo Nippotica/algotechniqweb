@@ -10,17 +10,16 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>We develop realtime</p>
-    <p>AI on Nvidia</p>
-    <p>Jetson Platforms</p>
+    <p>AI on Nvidia Platforms</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-At Algotechniq, we're a team of seasoned technologists dedicated to delivering advanced AI solutions on Nvidia Jetson platforms for industrial applications.
+At Algotechniq, our expert team delivers advanced AI solutions on Nvidia platforms for industrial applications. 
 
-With decades of experience, We collaborate with leading universities such as UC Berkeley, ETH Zurich, UTokyo, and Keio, ensuring our clients benefit from the latest innovations in AI technology.
+We regularly collaborate with leading scientists at top universities like UC Berkeley, ETH Zurich, UTokyo, and Keio to ensure our clients benefit from the latest AI innovations.
 
 > Algotechniq = Industrial-Strength AI
 
