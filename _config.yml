@@ -14,7 +14,7 @@ footer_text: >
 keywords: on-road anomaly detection, structural damage detection, motorist safety, computer vision, machine learning, deep learning, transfer learning, artificial intelligence, Nvidia, Orin, Automatic Claim Estimator, Insurance, Vehicle Damage Assessment, Computer Vision, Deep Learning, Instance Segmentation, Mask R-CNN, Object Detection, Vehicle Damaged Detection, pavement distresses, road condition monitoring, deep learning in road damage detection, built-in vehicle cameras, GPS sensors in road condition monitoring, pavement damage detection using deep learning, machine learning in road damage detection, Algorithms, Design, Experimentation, Measurement, computer vision (CV), edge computing, Internet of things (IoT), graphical processing unit (GPU), single-board computers (SBCs), smart cities
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: faviconalgo.webp # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://www.algotechniq.com # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
