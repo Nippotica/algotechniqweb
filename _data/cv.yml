@@ -15,7 +15,9 @@
       value: Shu Building 2982, Ebisu 2-28-10, Tokyo 150-0013, Japan
     - name: Url
       value: <a href="https://www.algotechniq.com/">algotechniq.com</a>
-
+    - name: Contact
+      value: <a href="mailto:info@algotechniq.com">info@algotechniq.com</a>
+      
 - title: Business
   type: map
   contents:
