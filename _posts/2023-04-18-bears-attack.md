@@ -42,7 +42,5 @@ Our algorithm, incorporated into our WildSight product, runs on Jetson Nano wher
         {% include video.liquid path="/assets/video/bearriverdemo.mp4" class="img-fluid rounded z-depth-1" controls=true  type="video/mp4" %}
     </div>
 </div>
-<div class="caption">
-    Algotechniq's WildSight in Action: Locating a brown bear searching for salmon in Hokkaido's Shiretoko Peninsula. 
-</div>
 
+Algotechniq's WildSight in Action: Locating a brown bear searching for salmon in Hokkaido's Shiretoko Peninsula. 
