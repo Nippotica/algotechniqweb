@@ -39,12 +39,11 @@ Our algorithm, incorporated into our WildSight product, runs on Jetson Nano wher
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="/assets/video/beardetect3.mp4" class="img-fluid rounded z-depth-1" controls=true  type="video/mp4" %}
+        {% include video.liquid path="/assets/video/bearriverdemo.mp4" class="img-fluid rounded z-depth-1" controls=true  type="video/mp4" %}
     </div>
 </div>
 <div class="caption">
-    Locating a running bear by Algotechniq's WildSight. 
+    Algotechniq's WildSight in Action: Locating a brown bear searching for salmon in the mountain stream of Hokkaido's Shiretoko Peninsula. 
 </div>
 
-The above video is extracted from [Nippon TV News Japan](https://www.youtube.com/watch?v=pLN11JicH5U).
 
