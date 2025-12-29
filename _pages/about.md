@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: Industrial IoT Processors
+subtitle: Industrial AI Processors
 
 profile:
   align: right
@@ -21,7 +21,7 @@ At Algotechniq, our expert team delivers advanced AI solutions on Nvidia platfor
 
 We regularly collaborate with leading scientists at top universities like UC Berkeley, ETH Zurich, UTokyo, and Keio to ensure our clients benefit from the latest AI innovations.
 
-> Algotechniq = AI-Enabled Industrial-Strength IoT
+> Algotechniq = AI for IoT
 
 Our solutions range from standalone software to comprehensive enterprise systems, tailored to diverse deployment needs. We specialize in harnessing deep learning and computer vision to enhance defect detection and quality control in manufacturing, while also automating the monitoring and maintenance of infrastructure.
 
