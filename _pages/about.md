@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>We develop realtime industrial</p>
-    <p>IoT on Nvidia Platforms</p>
+    <p>We develop realtime Physical AI</p>
+    <p>on Nvidia Platforms</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
