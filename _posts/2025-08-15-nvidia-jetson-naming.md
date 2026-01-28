@@ -60,7 +60,7 @@ But Nvidia's naming chaos has become a deliberate funnel. The confusion drives e
 
 ## Appendix: Jetson Comparison Reference
 
-| Device Model | Year | GPU Architecture | Tera OPS | Power Draw | Notes |
+| Model | Year | GPU Arch | TOPS | Power | Notes |
 |-------|------|----------|------|-------|-------|
 | Nano | 2019 | Maxwell | 0.5 | 5-10W | Legacy - don't start new projects |
 | Orin Nano | 2023 | Ampere | 40 | 7-15W | Entry tier, current generation |
@@ -70,7 +70,7 @@ But Nvidia's naming chaos has become a deliberate funnel. The confusion drives e
 | AGX Orin | 2022 | Ampere | 275 | 15-60W | Flagship, current generation |
 
 **Reading notes:**
-- **Tera OPS** = Theoretical peak performance (like your car's top speed downhill with a tailwind)
+- **TOPS** = Theoretical peak performance (like your car's top speed downhill with a tailwind)
 - **Maxwell/Volta** = Don't deploy new projects on these architectures
 - **Ampere (Orin/Thor)** = Current generation, recommended for new deployments
 - The "Notes" column exists because Nvidia's naming reveals less than it should
