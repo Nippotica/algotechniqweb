@@ -13,7 +13,7 @@ toc:
   sidebar: left
 ---
 
-*How to make a perfectly good hardware lineup unnecessarily complicated*
+> How to make a perfectly good hardware lineup unnecessarily complicated
 
 ## The Problem
 
