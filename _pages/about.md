@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: Industrial AI Processors
+subtitle: Physical AI Developers
 
 profile:
   align: right
