@@ -56,7 +56,7 @@ Then there's `-use_fast_math`, a compiler flag that activates:
 * **Fused Multiply-Add (FMA):** Changes rounding behavior
 * **Reciprocal approximations** for division and square roots
 
-Combine that with a zoo of floating-point formats—TF32, FP16, BF16, FP8—and it becomes easy to get blindsided by reduced accuracy or unexpected behavior. Even a matrix multiplication could silently switch from FP32 to TF32, yielding different results across GPU generations.
+Combine that with a zoo of floating-point formats—TF32, FP16, BF16, FP8—and it becomes easy to get blindsided by reduced accuracy or unexpected behavior. {% heldens2025kernel %} Even a matrix multiplication could silently switch from FP32 to TF32, yielding different results across GPU generations.
 
 ### The Kernel That Went Rogue
 
