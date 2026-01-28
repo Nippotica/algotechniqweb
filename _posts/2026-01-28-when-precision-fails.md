@@ -70,6 +70,8 @@ Worse, no warnings were emitted. If you didn't know that TF32 was being used beh
 
 Intel's mistake was more than just a bug. It was treating correctness as optional until a math professor (and the IBM reaction) forced its hand. NVIDIA, in contrast, gives you performance knobs and says: "Use at your own risk."
 
-In both cases, the lesson is the same: **never assume your hardware gets math right just because it's fast**.
+In both cases, the lesson is the same: 
+
+> **Never assume your hardware gets math right just because it's fast**.
 
 If you're working on simulations, scientific models, or financial calculations, disable fast math, validate results, and understand your precision formats. Because sometimes, a tiny number—missed, flushed, or silently approximated—can be the thing that breaks everything.
