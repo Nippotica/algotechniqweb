@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "When Precision Fails"
-date: 2025-01-28
+date: 2026-01-28
 description: From Intel's FDIV Debacle to NVIDIA's Floating-Point Maze
 tags: technote
 categories: Algoblog
