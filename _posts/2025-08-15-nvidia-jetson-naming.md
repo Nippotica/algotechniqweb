@@ -59,7 +59,7 @@ But Nvidia's naming chaos has become a deliberate funnel. The confusion drives e
 
 ## Appendix: Jetson Comparison Reference
 
-| Model | Year | GPU | TOPS | Power | Notes |
+| Model    | Year    | GPU    | TOPS    | Power    | Notes |
 |-----------------|--------|-----------------|-----------|-------------------|-------|
 | Nano | 2019 | Maxwell | 0.5 | 5-10W | Legacy - don't start new projects |
 | Orin Nano | 2023 | Ampere | 40 | 7-15W | Entry tier, current generation |
