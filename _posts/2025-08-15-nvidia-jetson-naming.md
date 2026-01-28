@@ -59,15 +59,18 @@ But Nvidia's naming chaos has become a deliberate funnel. The confusion drives e
 
 ## Appendix: Jetson Comparison Reference
 
-| Model    | Year    | GPU    | TOPS    | Power    | Notes |
-|-----------------|--------|-----------------|-----------|-------------------|-------|
-| Nano | 2019 | Maxwell | 0.5 | 5-10W | Legacy - don't start new projects |
-| Orin Nano | 2023 | Ampere | 40 | 7-15W | Entry tier, current generation |
-| Xavier NX | 2020 | Volta | 21 | 10-15W | Mid-tier, previous generation |
-| Orin NX | 2023 | Ampere | 100 | 10-25W | Mid-tier, current generation |
-| AGX Xavier | 2018 | Volta | 32 | 10-30W | Flagship, previous generation |
-| AGX Orin | 2022 | Ampere | 275 | 15-60W | Flagship, current generation |
+<div style="overflow-x: auto;">
 
+| Model | Year | GPU Architecture | AI Performance (TOPS) | Power Draw | Memory | Recommended Use | Deployment Status |
+|-------|------|------------------|----------------------|------------|---------|-----------------|-------------------|
+| Nano | 2019 | Maxwell | 0.5 | 5-10W | 4GB | Hobby projects, learning | Legacy - avoid for new projects |
+| Orin Nano | 2023 | Ampere | 40 | 7-15W | 4-8GB | Entry-level production, prototyping | Current generation - recommended |
+| Xavier NX | 2020 | Volta | 21 | 10-15W | 8-16GB | Light industrial applications | Previous gen - transitioning out |
+| Orin NX | 2023 | Ampere | 100 | 10-25W | 8-16GB | Production deployments, multi-stream | Current generation - recommended |
+| AGX Xavier | 2018 | Volta | 32 | 10-30W | 16-32GB | Heavy industrial (legacy systems) | Previous gen - support only |
+| AGX Orin | 2022 | Ampere | 275 | 15-60W | 32-64GB | Mission-critical, large models | Current generation - flagship |
+
+</div>
 **Reading notes:**
 - **TOPS** = Theoretical peak performance (like your car's top speed downhill with a tailwind)
 - **Maxwell/Volta** = Don't deploy new projects on these architectures
