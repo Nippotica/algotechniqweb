@@ -10,7 +10,7 @@ related_posts: false
 related_publications: true
 ---
 
-> What happens when the math inside your processor lies?
+> What happens when processor lies?
 
 Sometimes it triggers a billion-dollar recall. Other times, it quietly corrupts your results until a scientist or engineer finally catches it. This is the story of two very different paths to computational inaccuracy: one from Intel's historic FDIV failure, and another from NVIDIA's modern, high-speed but low-predictability floating-point world.
 
