@@ -3,7 +3,7 @@ layout: post
 title: "Nvidia Jetson Naming: A Masterclass in Confusion"
 date: 2025-08-15
 description: How to make a perfectly good hardware lineup unnecessarily complicated
-tags: technote
+tags: formatting bib
 categories: Algoblog
 giscus_comments: false
 related_posts: false
