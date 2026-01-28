@@ -2,17 +2,18 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Algotechniq # the website title (if blank, full name will be used instead)
 first_name: Algotechniq
 middle_name:
 last_name:
 email: info@algotechniq.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Welcome to Algotechniq.
+  Algotechniq delivers computer vision and Physical AI solutions, specializing in real-time 
+  monitoring, anomaly detection, and automated inspection systems on Nvidia platforms.
 footer_text: >
+  Algotechniq LLC - Physical AI Developers
 
-keywords: on-road anomaly detection, structural damage detection, motorist safety, computer vision, machine learning, deep learning, transfer learning, artificial intelligence, Nvidia, Orin, Automatic Claim Estimator, Insurance, Vehicle Damage Assessment, Computer Vision, Deep Learning, Instance Segmentation, Mask R-CNN, Object Detection, Vehicle Damaged Detection, pavement distresses, road condition monitoring, deep learning in road damage detection, built-in vehicle cameras, GPS sensors in road condition monitoring, pavement damage detection using deep learning, machine learning in road damage detection, Algorithms, Design, Experimentation, Measurement, computer vision (CV), edge computing, Internet of things (IoT), graphical processing unit (GPU), single-board computers (SBCs), smart cities
-
+keywords: computer vision, physical AI, traffic monitoring, anomaly detection, Nvidia Jetson,  infrastructure monitoring, deep learning
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
