@@ -5,6 +5,7 @@ date: 2026-01-28
 description: From Intel's FDIV Debacle to NVIDIA's Floating-Point Maze
 tags: technote
 categories: Algoblog
+thumbnail: assets/img/add113.jpeg
 giscus_comments: false
 related_posts: false
 related_publications: true
@@ -31,6 +32,8 @@ The Pentium returned:
 ```
 1.333739068902037589
 ```
+
+Off by 0.00008138023420341. You might argue that such precision only matters for edge cases. But when the chip promises correct rounding, wrong is wrong.
 
 The bug was spotted by Dr. Thomas Nicely, mathematics professor at Lynchburg College in Virginia, who reported it publicly. {% cite coe1995computational hoemmen2015getting %} That's when things got messy.
 
