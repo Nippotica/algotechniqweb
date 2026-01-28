@@ -8,6 +8,7 @@ categories: Algoblog
 giscus_comments: false
 related_posts: false
 related_publications: true
+pretty_table: true
 toc:
   sidebar: left
 ---
