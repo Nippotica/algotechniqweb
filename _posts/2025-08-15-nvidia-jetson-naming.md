@@ -24,7 +24,7 @@ For a company whose valuation depends on being indispensable, the naming scheme 
 
 ## The Lineup That Ate Clarity
 
-The current Jetson family includes: Nano, Orin Nano, Orin NX, AGX Orin, Xavier NX, AGX Xavier, and the upcoming Thor. These names don't follow a clear performance hierarchy or generational progression. Xavier NX might be weaker or stronger than Orin Nano depending entirely on which architecture generation you're comparing. {% cite arif2025deep, swaminathan2025benchmarking %}
+The current Jetson family includes: Nano, Orin Nano, Orin NX, AGX Orin, Xavier NX, AGX Xavier, and the upcoming Thor. These names don't follow a clear performance hierarchy or generational progression. Xavier NX might be weaker or stronger than Orin Nano depending entirely on which architecture generation you're comparing. {% cite arif2025deep %}
 
 ### The Nano Problem
 
