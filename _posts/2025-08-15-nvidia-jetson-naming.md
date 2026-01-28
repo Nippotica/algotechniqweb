@@ -24,7 +24,7 @@ For a company whose valuation depends on being indispensable, the naming scheme 
 
 ## The Lineup That Ate Clarity
 
-The current Jetson family includes: Nano, Orin Nano, Orin NX, AGX Orin, Xavier NX, AGX Xavier, and the upcoming Thor. These names don't follow a clear performance hierarchy or generational progression. Xavier NX might be weaker or stronger than Orin Nano depending entirely on which architecture generation you're comparing. {% cite arif2025deep %}
+The current Jetson family includes: Nano, Orin Nano, Orin NX, AGX Orin, Xavier NX, AGX Xavier, and the upcoming Thor. These names don't follow a clear performance hierarchy or generational progression. Xavier NX might be weaker or stronger than Orin Nano depending entirely on which architecture generation you're comparing. {% cite arif2025deep %}, {% cite swaminathan2025benchmarking %}
 
 ### The Nano Problem
 
@@ -59,8 +59,8 @@ But Nvidia's naming chaos has become a deliberate funnel. The confusion drives e
 
 ## Appendix: Jetson Comparison Reference
 
-| Model | Release Year | GPU Architecture | TOPS | Power Draw | Notes |
-|-------|------|----------|------|-------|-------|
+| Model | Released | GPU Arch | TOPS | Power | Notes |
+|------------|--------|-----------------|-----------|------------|-------|
 | Nano | 2019 | Maxwell | 0.5 | 5-10W | Legacy - don't start new projects |
 | Orin Nano | 2023 | Ampere | 40 | 7-15W | Entry tier, current generation |
 | Xavier NX | 2020 | Volta | 21 | 10-15W | Mid-tier, previous generation |
