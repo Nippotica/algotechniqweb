@@ -5,7 +5,7 @@ date: 2026-01-28
 description: From Intel's FDIV Debacle to NVIDIA's Floating-Point Maze
 tags: technote
 categories: Algoblog
-thumbnail: assets/img/add113.jpeg
+thumbnail: assets/img/add113.jpg
 giscus_comments: false
 related_posts: false
 related_publications: true
