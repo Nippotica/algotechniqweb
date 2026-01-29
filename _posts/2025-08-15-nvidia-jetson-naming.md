@@ -5,6 +5,7 @@ date: 2025-08-15
 description: How to make a perfectly good hardware lineup unnecessarily complicated
 tags: formatting bib
 categories: Algoblog
+thumbnail: assets/img/nvidianames.jpeg
 giscus_comments: false
 related_posts: false
 related_publications: true
