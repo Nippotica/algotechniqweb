@@ -7,14 +7,11 @@ nav_order: 3
 ---
 
 <script>
-  window.open("https://gallery.algotechniq.com/", "_blank");
-  window.location.replace("/");
+  window.location.replace("https://gallery.algotechniq.com/");
 </script>
 
 <noscript>
-  <p>Gallery opens in a new tab: <a href="https://gallery.algotechniq.com/" target="_blank">Click here to open Algotechniq Gallery</a></p>
-  <p>Redirecting back to home...</p>
-  <meta http-equiv="refresh" content="2; url=/">
+  <meta http-equiv="refresh" content="0; url=https://gallery.algotechniq.com/">
 </noscript>
 
-Gallery opening in new tab...
+Redirecting to [Algotechniq Gallery](https://gallery.algotechniq.com/)...
